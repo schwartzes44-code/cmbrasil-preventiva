@@ -109,3 +109,13 @@
   text-align: center;
   min-height: 18px;
 }
+
+/* Controle de visibilidade durante a autenticacao */
+
+main[hidden] {
+  display: none !important;
+}
+
+.tela-login[hidden] {
+  display: none !important;
+}
